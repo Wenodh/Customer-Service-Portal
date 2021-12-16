@@ -1,6 +1,8 @@
 import React from 'react';
-import './sty.css';
-import Button from 'react-bootstrap/Button';
+// import './sty.css';
+// import Button from 'react-bootstrap/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 class Trac extends React.Component {
     render() {
         let login = 1;
@@ -49,25 +51,32 @@ class Trac extends React.Component {
                         <button class="b">Signin</button>
                     </div>
                 </form>
-                <table class="t">
+                <table class="table-primary">
                     <thead class="the ,t">
                         <tr class="t">
                             <th class="t">Username</th>
                             <th class="t">Description</th>
+                            <th class="t">change</th>
                         </tr>
                     </thead>
                     <tbody class="t">
                         <tr class="t">
                             <td class="t">January</td>
                             <td class="t">$100</td>
+                            <td class="t">
+                                <a href="#">$100</a>
+                            </td>
                         </tr>
                         <tr class="t">
                             <td class="t">January</td>
                             <td class="t">$100</td>
+                            <td class="t">
+                                <a href="#">$100</a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
-                <Button variant="warning"> Click here </Button>
+                <button variant="warning"> Click here </button>
             </>
         );
     }
