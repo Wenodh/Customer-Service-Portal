@@ -13,10 +13,11 @@ import * as serviceWorker from './serviceWorker';
 // import Timer1 from './timer';
 
 // import Employee from './Employee';
-import Login from './Login';
-import FormComponent from './form';
+// import Login from './Login';
+// import FormComponent from './form';
+import Sample from './sample';
 
-ReactDOM.render(<Login />, document.getElementById('root'));
+ReactDOM.render(<Sample />, document.getElementById('root'));
 // setTimeout(() => {
 //     ReactDOM.unmountComponentAtNode(document.getElementById('root'));
 // }, 15000);
